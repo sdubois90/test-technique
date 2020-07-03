@@ -46,4 +46,4 @@ Choose one among these three:
 
 ## Simple build for production
 
-    $ yarn build
+    $ npm build
