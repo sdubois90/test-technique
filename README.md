@@ -50,6 +50,7 @@ Choose one among these three:
     
 ## .ENV variables
 
-  DB_PORT=
-  MONGODB_URI=
-  SESSION_SECRET=
+  DB_PORT
+
+  MONGODB_URI
+  SESSION_SECRET
