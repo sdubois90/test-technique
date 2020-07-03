@@ -46,3 +46,10 @@ Choose one among these three:
     $ npm start       // node
     $ npm run dev     // nodemon
     $ npm run server  // nodemon
+    
+    
+## .ENV variables
+
+  DB_PORT=
+  MONGODB_URI=
+  SESSION_SECRET=
