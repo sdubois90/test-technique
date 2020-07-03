@@ -1,5 +1,8 @@
 # test-technique
-Technical test on Node.js
+Technical test on Node.js :
+
+2 inputs: 1 for the username and 1 for the user age
+The information should be stored into the database and displayed on the page
 
 ---
 ## Requirements
@@ -43,7 +46,3 @@ Choose one among these three:
     $ npm start       // node
     $ npm run dev     // nodemon
     $ npm run server  // nodemon
-
-## Simple build for production
-
-    $ npm build
