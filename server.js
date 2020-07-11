@@ -59,7 +59,7 @@ app.get("/", (req, res) => {
             console.log(req.sessionID)  // express-session
             res.render("index", {
                 allInfo: dbresult,
-                title: "Test Technique Node.js + MongoDB",
+                title: "Test Technique Node.js",
                 styles: ["styles.css"]
             });
         })

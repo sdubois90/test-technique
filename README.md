@@ -38,6 +38,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ npm install npm -g
     
 If you need automatic reload of your app upon any update made to your files, you can install `nodemon` using `npm`:
+
     $ npm install -g nodemon
 
 ## Running the project
@@ -46,3 +47,12 @@ Choose one among these three:
     $ npm start       // node
     $ npm run dev     // nodemon
     $ npm run server  // nodemon
+    
+    
+## .ENV variables
+
+  PORT
+
+  MONGODB_URI
+  
+  SESSION_SECRET
