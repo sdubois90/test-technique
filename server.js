@@ -49,7 +49,7 @@ app.set("view engine", "hbs");
 app.set('views', __dirname + '/views'); // Indicates to ExpressJS where to find our views
 
 
-// My routes 
+// My routes =>
 
 const User = require("./models/User");
 
