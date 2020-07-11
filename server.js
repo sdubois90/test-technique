@@ -40,7 +40,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const createError = require('http-errors'); // for errors (.then() statements)
 
-app.listen(process.env.DB_PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server running");
 })
 
@@ -60,7 +60,7 @@ app.get("/", (req, res) => {
             console.log(req.sessionID)  // express-session
             res.render("index", {
                 allInfo: dbresult,
-                title: "Test Technique Node.js + SQL",
+                title: "Test Technique Node.js",
                 styles: ["styles.css"]
             });
         })
